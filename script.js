@@ -43,7 +43,7 @@ function formatCurrency(type, value) {
     let to = document.getElementById("toCurrencyList").value
     let input = amountInput.value;
     let exchangeRatio = getConversionRate(from,to)
-    let convertedAmount = input * exchangeRatio
+    let convertedAmount = formatCurrency(to,input * exchangeRatio)
     const res = document.getElementById("result").innerHTML = `${convertedAmount}`
     }
 
