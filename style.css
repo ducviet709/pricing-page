@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    background-image:url(https://lh3.googleusercontent.com/proxy/rJzmE4xkzbgx7xddXdk9GW1B56Imtoey3-YGxudc-Xrw9AXZnt5XfCmmN9vDKk_3cDD2I0rpjBkLicDb99E60faDQu8lyaB8YY7UYoOsfyFHWqe7EqB8pF-dZi0zsBVEdRdkEGbMU2NYzFJ_ZllOU94VVQ);
+    background-size: fixed;
+
+  } 
+  
+  section {
+    flex: 1;
+  }
+  
+  section > div {
+    flex: 1;
+    border-radius: 3em;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  section > div > ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  li {  
+    font-size: 25px;
+    padding-left: 15px;
+  } 
