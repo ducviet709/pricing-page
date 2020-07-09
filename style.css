@@ -1,8 +1,7 @@
 body {
     height: 100vh;
-    background-image:url(https://lh3.googleusercontent.com/proxy/rJzmE4xkzbgx7xddXdk9GW1B56Imtoey3-YGxudc-Xrw9AXZnt5XfCmmN9vDKk_3cDD2I0rpjBkLicDb99E60faDQu8lyaB8YY7UYoOsfyFHWqe7EqB8pF-dZi0zsBVEdRdkEGbMU2NYzFJ_ZllOU94VVQ);
+    background-image: url(/img/background.jpg);
     background-size: fixed;
-
   } 
   
   section {

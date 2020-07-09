@@ -23,13 +23,13 @@ function timeCounting() {
 function guessNumber() {
     let userNumber = document.getElementById("userGuess").value
     if (history.includes(userNumber)) {
-        document.getElementById("prompt").innerHTML = `have`
+        document.getElementById("prompt").innerHTML = `Have`
         return;
 
     }
 
     if(userNumber>100){
-        alert("too high")
+        alert("Pls 0-100")
         return
     }
 
